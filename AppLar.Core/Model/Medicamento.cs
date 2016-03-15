@@ -23,5 +23,7 @@ namespace AppLar.Core.Model
 
         [MaxLength(60)]
         public String nome { get; set; }
+
+        public String marca { get; set; }
     }
 }
